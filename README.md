@@ -3,6 +3,7 @@
 - [Overview](#overview)
 - [Setup](#setup)
 - [Design Specifications](#design-specifications)
+  - [Guiding Questions \& Suggestions](#guiding-questions--suggestions)
   - [Style Guide](#style-guide)
   - [Additional Styling Notes](#additional-styling-notes)
 - [CSS Cheatsheet](#css-cheatsheet)
@@ -47,6 +48,19 @@ Use the previous assignment to see the patterns for how to structure your page a
 Use the spec diagram below and the following style guide to build your page.
 
 ![Specifications for mobile and desktop views](./img/spec.png)
+
+### Guiding Questions & Suggestions
+
+Before you start coding, take a moment to analyze the design:
+
+**HTML Structure:**
+- What are the main sections of this page? How can you use semantic elements (`header`, `main`, `footer`, `section`, `nav`) to structure your HTML?
+- What repeating patterns do you see? Use lists (`ul`, `li`) to represent them.
+
+**Layout Strategy:**
+- Where do you see elements arranged in a single row or column? These are good candidates for **Flexbox**.
+- Where do you see elements arranged in a two-dimensional grid pattern (rows AND columns)? These are good candidates for **CSS Grid**.
+
 
 ### Style Guide
 
