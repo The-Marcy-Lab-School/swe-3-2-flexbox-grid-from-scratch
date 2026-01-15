@@ -1,7 +1,5 @@
 # Checkpoint 3 - HTML & CSS (Music Player)
 
-**Time: 2 Hours**
-
 - [Overview](#overview)
 - [Setup](#setup)
 - [Design Specifications](#design-specifications)
@@ -21,6 +19,8 @@
 ## Overview
 
 In this assignment, you will be building and styling a **Spotify-style Music Player page** using HTML, Flexbox, Grid from scratch using nothing more than a design document to reference!
+
+Use the previous assignment to see the patterns for how to structure your page and how to use flexbox/grid to style the page.
 
 **What's Provided:**
 - Empty HTML file (`index.html`)
