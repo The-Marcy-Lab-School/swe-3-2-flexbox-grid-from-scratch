@@ -1,0 +1,6 @@
+# Don't include the src solution in the student repo
+src-solution/
+
+.DS_Store
+
+node_modules/
