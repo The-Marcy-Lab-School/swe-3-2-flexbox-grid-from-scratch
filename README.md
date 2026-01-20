@@ -3,9 +3,12 @@
 - [Overview](#overview)
 - [Setup](#setup)
 - [Design Specifications](#design-specifications)
-  - [Guiding Questions \& Suggestions](#guiding-questions--suggestions)
   - [Style Guide](#style-guide)
   - [Additional Styling Notes](#additional-styling-notes)
+  - [Guiding Questions \& Suggestions](#guiding-questions--suggestions)
+- [Grading Guide \& Submissions](#grading-guide--submissions)
+  - [Technical Requirements](#technical-requirements)
+  - [Submission](#submission)
 - [CSS Cheatsheet](#css-cheatsheet)
   - [Colors](#colors)
   - [Typography (Text Styling)](#typography-text-styling)
@@ -15,7 +18,6 @@
   - [Flexbox](#flexbox)
   - [Grid](#grid)
   - [Media Queries](#media-queries)
-- [Submission](#submission)
 
 ## Overview
 
@@ -49,19 +51,6 @@ Use the spec diagram below and the following style guide to build your page.
 
 ![Specifications for mobile and desktop views](./img/spec.png)
 
-### Guiding Questions & Suggestions
-
-Before you start coding, take a moment to analyze the design:
-
-**HTML Structure:**
-- What are the main sections of this page? How can you use semantic elements (`header`, `main`, `footer`, `section`, `nav`) to structure your HTML?
-- What repeating patterns do you see? Use lists (`ul`, `li`) to represent them.
-
-**Layout Strategy:**
-- Where do you see elements arranged in a single row or column? These are good candidates for **Flexbox**.
-- Where do you see elements arranged in a two-dimensional grid pattern (rows AND columns)? These are good candidates for **CSS Grid**.
-
-
 ### Style Guide
 
 Use the following fonts and colors for this project:
@@ -76,6 +65,50 @@ Use the following fonts and colors for this project:
 
 - Remove text decoration (underlines) from nav links
 - Links should turn green on hover
+
+### Guiding Questions & Suggestions
+
+Before you start coding, take a moment to analyze the design:
+
+**HTML Structure:**
+- What are the main sections of this page? How can you use semantic elements (`header`, `main`, `footer`, `section`, `nav`) to structure your HTML?
+- What repeating patterns do you see? Use lists (`ul`, `li`) to represent them.
+
+**Layout Strategy:**
+- Where do you see elements arranged in a single row or column? These are good candidates for **Flexbox**.
+- Where do you see elements arranged in a two-dimensional grid pattern (rows AND columns)? These are good candidates for **CSS Grid**.
+
+## Grading Guide & Submissions
+
+### Technical Requirements
+
+**HTML Structure:**
+- [ ] Uses semantic HTML elements (`header`, `main`, `footer`, `section`, `nav`)
+- [ ] Uses lists (`ul`, `li`) to represent repeating content (nav links, stats, posts)
+- [ ] Uses `figure` and `figcaption` for images with captions
+
+**CSS Layout:**
+- [ ] Uses Flexbox (`display: flex`) on at least 4 different elements
+- [ ] Uses CSS Grid (`display: grid`) for the playlists section
+- [ ] Uses `gap` to create consistent spacing between elements
+
+**Styling:**
+- [ ] Uses CSS Variables to store colors and avoid repetition
+- [ ] Padding, margins, and gaps match the design specification
+- [ ] Links have a hover effect that changes the text color to green
+
+**Overall:**
+- [ ] Passes the "eye test" (without looking at the code or inspecting closely, the page looks like it matches the design spec)
+
+### Submission
+
+When you are finished:
+1. Save all your files
+2. Commit your changes with a descriptive message
+3. Push to your repository
+4. Make a pull request and tag your instructors for review
+5. Submit the link to your pull request
+
 
 ## CSS Cheatsheet
 
@@ -169,14 +202,3 @@ a:hover {
   }
 }
 ```
-
----
-
-## Submission
-
-When you are finished:
-1. Save all your files
-2. Commit your changes with a descriptive message
-3. Push to your repository
-4. Make a pull request and tag your instructors for review
-5. Submit the link to your pull request
