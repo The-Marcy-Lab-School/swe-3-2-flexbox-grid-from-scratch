@@ -93,13 +93,11 @@ Before you start coding, take a moment to analyze the design:
 - [ ] Uses CSS Grid (`display: grid`) for the playlists section
 - [ ] Uses `gap` to create consistent spacing between elements
 
-**Styling:**
+**General Styling:**
+- [ ] Passes the "eye test" (without looking at the code or inspecting closely, the page looks like it matches the design spec)
 - [ ] Uses CSS Variables to store colors and avoid repetition
 - [ ] Padding, margins, and gaps match the design specification
 - [ ] Links have a hover effect that changes the text color to green
-
-**Overall:**
-- [ ] Passes the "eye test" (without looking at the code or inspecting closely, the page looks like it matches the design spec)
 
 ### Submission
 
