@@ -84,7 +84,7 @@ Before you start coding, take a moment to analyze the design:
 ### Technical Requirements
 
 **HTML Structure:**
-- [ ] Uses semantic HTML elements (`header`, `main`, `footer`, `section`, `nav`)
+- [ ] Uses semantic HTML elements (`header`, `main`, `footer`, `section`, `nav`) for major page components instead of generic `div`s.
 - [ ] Uses lists (`ul`, `li`) to represent repeating content (nav links, stats, posts)
 - [ ] Uses `figure` and `figcaption` for images with captions
 
